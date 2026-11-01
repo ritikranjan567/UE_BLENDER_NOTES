@@ -133,3 +133,23 @@
 - After `Ctrl` + `R`, **left-click** to place the cut at a custom position, or **right-click** to place it halfway.
 - After creating a loop cut, use the **Loop Cut** panel to adjust its settings.
 - To add edge loops more quickly, select faces and choose **Subdivide** from the right-click menu.
+
+### Fill Action
+
+Select the edget and use `f` to fill with faces
+
+**Bridge Edge Loop**: Select edge or edges you wanna feel, then `ctrl + e` -> Bridget Edget Loops
+
+### Bavel
+
+Used to smooth edgets/round edges.  
+Select edge/edges then `ctrl + b` to round it, introducing new edge.
+Use mouse scroll to add more segments or left bottom Bavel menu.
+
+### Inset
+
+Press `I`
+
+Used to create a inner face, like if circle then inner circle, square then inner square.  
+This can be done using extrude but, if you wanna create inner faces in multiple faces at once, you have extrude one by one.
+Use inset after selecting face press `I`

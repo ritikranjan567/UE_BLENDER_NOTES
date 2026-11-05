@@ -38,6 +38,16 @@
 | Enable Gizmos | Show gizmos from the top toolbar |
 | Scene Properties → Units | View or change scene units and scale |
 
+### Focus on one object
+If you have multiple objects and you wanna focus on just one piece, then just select the piece and
+press `/`. It goes into local mode.  
+Press `/` again to toggle back global mode.
+
+### Individual transform pivot/Median point
+From top Paperclip icon, change the transform median point, by default its global or Median point, to make to local to object you choose, Inidividual Origins
+
+Example: you want two faces to scale down on their local origin, if pivot point is not changed, then the will scale down as per global origin, resulting unexpected output
+
 **Joining objects (`Ctrl` + `J`)**
 - Select the objects to join.
 - The last-selected object becomes the active object; the others are joined into it and removed from the object list.
@@ -153,3 +163,8 @@ Press `I`
 Used to create a inner face, like if circle then inner circle, square then inner square.  
 This can be done using extrude but, if you wanna create inner faces in multiple faces at once, you have extrude one by one.
 Use inset after selecting face press `I`
+
+NOTE: 
+- insets will like to join at center even if there are two consecutive separate faces, just press `I` again to add inset separatly as individual.
+- To snap cursor at the face center, select the face -> `Shift + S` -> Cursor to selected  
+  - Now this can be used to make the cursor objects local origin

@@ -168,3 +168,8 @@ NOTE:
 - insets will like to join at center even if there are two consecutive separate faces, just press `I` again to add inset separatly as individual.
 - To snap cursor at the face center, select the face -> `Shift + S` -> Cursor to selected  
   - Now this can be used to make the cursor objects local origin
+
+
+### Repeat function:
+Suppose for a function you have taken a set of action, like merge at center. You can repeate the same set of selection action using:
+`CTRL + R`
